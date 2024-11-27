@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState } from "react";
 
 function UserForm({ onClose, onSave, roles, user }) {
   const [name, setName] = useState(user?.name || "");
